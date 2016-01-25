@@ -1,0 +1,23 @@
+{
+    "name": "sibds/yii2-htmleditor",
+    "description": "HTML Editors for Yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","ckeditor"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vadim Mazur",
+            "email": "mazurva@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*",
+        "mihaildev/yii2-elfinder": "*",
+        "sibds/yii2-ckeditor-widget": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "sibds\\widgets\\": ""
+        }
+    }
+}
